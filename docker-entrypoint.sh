@@ -228,7 +228,7 @@ fi
 mkdir -p images
 
 # Fix file ownership and permissions
-chown -R www-data: .
+# chown -R www-data: .
 chmod 755 images
 
 exec "$@"
