@@ -12,7 +12,7 @@ RUN set -x; \
         ca-certificates \
         imagemagick \
         libpng-dev \
-        libicu57 libicu-dev \
+        libicu63 libicu-dev \
         netcat \
         git \
         wget zip unzip \
