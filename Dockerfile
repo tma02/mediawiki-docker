@@ -18,7 +18,7 @@ RUN set -x; \
         git \
         wget zip unzip \
         locales \
-        gpg dirmngr \
+        gpg gpg-agent dirmngr \
     && sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen \
     && dpkg-reconfigure locales && locale-gen --purge en_US en_US.UTF-8 && update-locale LANG=en_US.UTF-8 \
     && export LC_ALL=en_US.UTF-8 \
