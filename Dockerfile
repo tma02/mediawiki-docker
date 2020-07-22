@@ -13,6 +13,7 @@ RUN set -x; \
         imagemagick \
         libpng-dev \
         libicu63 libicu-dev \
+	libonig-dev \
         netcat \
         git \
         wget zip unzip \
